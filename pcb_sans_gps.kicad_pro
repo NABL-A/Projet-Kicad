@@ -76,7 +76,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|86500000|136500000|3e5b9c06-4f52-4637-a346-dea6695b6fce|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -162,7 +167,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -730,7 +735,7 @@
         "uuid": "d30d2125-2633-4009-8b4e-b67a2e8240f1"
       }
     ],
-    "used_designators": "J2,#PWR10",
+    "used_designators": "TP1-28,H1-4",
     "variants": [
       {
         "name": "Ok"
